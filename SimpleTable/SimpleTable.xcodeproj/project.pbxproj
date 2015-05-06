@@ -33,6 +33,7 @@
 		D188B0D31AEA23FE00B28E4B /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D188B0C31AEA23FE00B28E4B /* white_chocolate_donut.jpg */; };
 		D188B0D51AEA259800B28E4B /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D188B0D41AEA259800B28E4B /* SimpleTableCell.xib */; };
 		D188B0D81AEA28E000B28E4B /* SimpleTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D188B0D71AEA28E000B28E4B /* SimpleTableCellTableViewCell.m */; };
+		D1A0D9761AF9A7E100BF4904 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1A0D9751AF9A7E100BF4904 /* recipes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		D188B0D41AEA259800B28E4B /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
 		D188B0D61AEA28E000B28E4B /* SimpleTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCellTableViewCell.h; sourceTree = "<group>"; };
 		D188B0D71AEA28E000B28E4B /* SimpleTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCellTableViewCell.m; sourceTree = "<group>"; };
+		D1A0D9751AF9A7E100BF4904 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				D188B08E1AE884A500B28E4B /* AppDelegate.m */,
 				D188B0901AE884A500B28E4B /* ViewController.h */,
 				D188B0911AE884A500B28E4B /* ViewController.m */,
+				D1A0D9751AF9A7E100BF4904 /* recipes.plist */,
 				D188B0931AE884A500B28E4B /* Main.storyboard */,
 				D188B0961AE884A500B28E4B /* Images.xcassets */,
 				D188B0981AE884A500B28E4B /* LaunchScreen.xib */,
@@ -274,6 +277,7 @@
 				D188B0CE1AEA23FE00B28E4B /* mushroom_risotto.jpg in Resources */,
 				D188B0971AE884A500B28E4B /* Images.xcassets in Resources */,
 				D188B0B01AE8907F00B28E4B /* creme_brelee.jpeg in Resources */,
+				D1A0D9761AF9A7E100BF4904 /* recipes.plist in Resources */,
 				D188B0C61AEA23FE00B28E4B /* egg_benedict.jpg in Resources */,
 				D188B0C81AEA23FE00B28E4B /* green_tea.jpg in Resources */,
 				D188B0C71AEA23FE00B28E4B /* full_breakfast.jpg in Resources */,
