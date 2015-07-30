@@ -2,15 +2,17 @@
 //  main.m
 //  RecipeBook
 //
-//  Created by daichao on 15/7/22.
-//  Copyright (c) 2015年 daichao. All rights reserved.
+//  Created by Simon Ng on 14/6/12.
+//  Copyright (c) 2012 Appcoda. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
-int main(int argc, char * argv[]) {
+#import "RecipeBookAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RecipeBookAppDelegate class]));
     }
 }

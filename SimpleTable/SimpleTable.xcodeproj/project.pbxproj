@@ -35,6 +35,7 @@
 		D1E360BB1B5EA235009743C7 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E360BA1B5EA235009743C7 /* recipes.plist */; };
 		D1E360C21B5EA4F3009743C7 /* MyLaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E360C01B5EA4F3009743C7 /* MyLaunchImage.png */; };
 		D1E360C31B5EA4F3009743C7 /* MyLaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E360C11B5EA4F3009743C7 /* MyLaunchImage@2x.png */; };
+		D1EEB1E91B69098300A4AF17 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EEB1E81B69098300A4AF17 /* Recipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		D1E360BA1B5EA235009743C7 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		D1E360C01B5EA4F3009743C7 /* MyLaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyLaunchImage.png; sourceTree = "<group>"; };
 		D1E360C11B5EA4F3009743C7 /* MyLaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyLaunchImage@2x.png"; sourceTree = "<group>"; };
+		D1EEB1E71B69098300A4AF17 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		D1EEB1E81B69098300A4AF17 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				A2C7DB9B1B5C936300780578 /* AppDelegate.m */,
 				A2C7DB9D1B5C936300780578 /* ViewController.h */,
 				A2C7DB9E1B5C936300780578 /* ViewController.m */,
+				D1EEB1E71B69098300A4AF17 /* Recipe.h */,
+				D1EEB1E81B69098300A4AF17 /* Recipe.m */,
 				A2C7DBBE1B5CCA5300780578 /* SimpleTableCell.xib */,
 				D1E360BA1B5EA235009743C7 /* recipes.plist */,
 				A2C7DBE01B5CCE5200780578 /* SimpleTableCell.h */,
@@ -307,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C7DB9F1B5C936300780578 /* ViewController.m in Sources */,
+				D1EEB1E91B69098300A4AF17 /* Recipe.m in Sources */,
 				A2C7DB9C1B5C936300780578 /* AppDelegate.m in Sources */,
 				A2C7DBE21B5CCE5200780578 /* SimpleTableCell.m in Sources */,
 				A2C7DB991B5C936300780578 /* main.m in Sources */,

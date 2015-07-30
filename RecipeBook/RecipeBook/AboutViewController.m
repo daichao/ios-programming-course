@@ -2,8 +2,8 @@
 //  AboutViewController.m
 //  RecipeBook
 //
-//  Created by daichao on 15/7/23.
-//  Copyright (c) 2015年 daichao. All rights reserved.
+//  Created by Simon Ng on 24/6/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "AboutViewController.h"
@@ -13,28 +13,36 @@
 @end
 
 @implementation AboutViewController
+
 @synthesize webView;
-- (void)viewDidLoad {
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSURL *url=[NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"about.html" ofType:nil]];
-    NSURLRequest *request=[NSURLRequest requestWithURL:url];
+	// Add code to load web content in UIWebView
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"about.html" ofType:nil]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [webView loadRequest:request];
- }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
 }
-*/
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
 
 @end
