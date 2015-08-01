@@ -451,6 +451,7 @@
 				A29BE6E71B6B1B92005BF449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29BE6E81B6B1B92005BF449 /* Build configuration list for PBXNativeTarget "MyStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +460,7 @@
 				A29BE6EA1B6B1B92005BF449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    if (self.device) {
+        [self.nameTextField setText:[self.device valueForKey:@"name"]];
+        [self.versionTextField setText:[self.device valueForKey:@"version"]];
+        [self.companyTextField setText:[self.device valueForKey:@"company"]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,12 +46,20 @@
 
 - (IBAction)save:(id)sender{
     NSManagedObjectContext *context=[self managedObjectContext];
+    if(self.device){
+        [_device setValue:self.nameTextField.text forKey:@"name"];
+        [_device setValue:self.versionTextField.text forKey:@"version"];
+        [_device setValue:self.companyTextField.text forKey:@"company"];
+    }
+    else{
+        //Create a new managed object
+        NSManagedObject *newDevice=[NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
+        [newDevice setValue:self.nameTextField.text forKey:@"name"];
+        [newDevice setValue:self.versionTextField.text forKey:@"version"];
+        [newDevice setValue:self.companyTextField.text forKey:@"company"];
+    }
     
-    //Create a new managed object
-    NSManagedObject *newDevice=[NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
-    [newDevice setValue:self.nameTextField.text forKey:@"name"];
-    [newDevice setValue:self.versionTextField.text forKey:@"version"];
-    [newDevice setValue:self.companyTextField.text forKey:@"company"];
+    
     
     NSError *error=nil;
     if(![context save:&error]){
