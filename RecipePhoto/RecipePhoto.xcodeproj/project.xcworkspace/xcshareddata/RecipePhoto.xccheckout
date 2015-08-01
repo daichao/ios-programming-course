@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C779AD20-CBA3-4C6B-99DA-527E06AB4616</string>
+	<string>F026F3EE-6FEB-4032-AA55-899D496C83D5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MyStore</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
 		<string>https://github.com/daichao/ios-programming-course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyStore/MyStore.xcodeproj</string>
+	<string>RecipePhoto/RecipePhoto.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
