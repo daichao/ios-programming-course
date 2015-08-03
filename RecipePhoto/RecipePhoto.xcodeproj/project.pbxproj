@@ -34,6 +34,9 @@
 		D16CDEA81B6D1E8600D55B50 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D16CDE971B6D1E8600D55B50 /* thai_shrimp_cake.jpg */; };
 		D16CDEA91B6D1E8600D55B50 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D16CDE981B6D1E8600D55B50 /* vegetable_curry.jpg */; };
 		D16CDEAA1B6D1E8600D55B50 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D16CDE991B6D1E8600D55B50 /* white_chocolate_donut.jpg */; };
+		D19F48EB1B6FC19800930E65 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19F48EA1B6FC19800930E65 /* RecipeViewController.m */; };
+		D19F48ED1B6FCE7E00930E65 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19F48EC1B6FCE7E00930E65 /* Social.framework */; };
+		D19F48EF1B6FD59F00930E65 /* pic_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = D19F48EE1B6FD59F00930E65 /* pic_frame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,10 @@
 		D16CDE971B6D1E8600D55B50 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
 		D16CDE981B6D1E8600D55B50 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		D16CDE991B6D1E8600D55B50 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		D19F48E91B6FC19800930E65 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		D19F48EA1B6FC19800930E65 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		D19F48EC1B6FCE7E00930E65 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D19F48EE1B6FD59F00930E65 /* pic_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_frame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19F48ED1B6FCE7E00930E65 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +113,7 @@
 		D16CDE311B6D1A7F00D55B50 = {
 			isa = PBXGroup;
 			children = (
+				D19F48EC1B6FCE7E00930E65 /* Social.framework */,
 				D16CDE3C1B6D1A7F00D55B50 /* RecipePhoto */,
 				D16CDE561B6D1A7F00D55B50 /* RecipePhotoTests */,
 				D16CDE3B1B6D1A7F00D55B50 /* Products */,
@@ -123,6 +132,7 @@
 		D16CDE3C1B6D1A7F00D55B50 /* RecipePhoto */ = {
 			isa = PBXGroup;
 			children = (
+				D19F48EE1B6FD59F00930E65 /* pic_frame.png */,
 				A2C1A4D01B6F876F005ABC79 /* footer_banner.png */,
 				A2C1A4D11B6F876F005ABC79 /* header_banner.png */,
 				D16CDE891B6D1E8600D55B50 /* angry_birds_cake.jpg */,
@@ -147,6 +157,8 @@
 				D16CDE421B6D1A7F00D55B50 /* AppDelegate.m */,
 				D16CDE631B6D1B6C00D55B50 /* RecipeCollectionViewController.h */,
 				D16CDE641B6D1B6C00D55B50 /* RecipeCollectionViewController.m */,
+				D19F48E91B6FC19800930E65 /* RecipeViewController.h */,
+				D19F48EA1B6FC19800930E65 /* RecipeViewController.m */,
 				A2C1A4D41B6F968E005ABC79 /* RecipeCollectionHeaderView.h */,
 				A2C1A4D51B6F968E005ABC79 /* RecipeCollectionHeaderView.m */,
 				A2C1A4D71B6F98F2005ABC79 /* RecipeViewCell.h */,
@@ -267,6 +279,7 @@
 				D16CDE9D1B6D1E8600D55B50 /* full_breakfast.jpg in Resources */,
 				D16CDE491B6D1A7F00D55B50 /* Main.storyboard in Resources */,
 				D16CDE9B1B6D1E8600D55B50 /* creme_brelee.jpg in Resources */,
+				D19F48EF1B6FD59F00930E65 /* pic_frame.png in Resources */,
 				D16CDEAA1B6D1E8600D55B50 /* white_chocolate_donut.jpg in Resources */,
 				D16CDEA81B6D1E8600D55B50 /* thai_shrimp_cake.jpg in Resources */,
 				D16CDEA61B6D1E8600D55B50 /* photo-frame.png in Resources */,
@@ -303,6 +316,7 @@
 			files = (
 				D16CDE651B6D1B6C00D55B50 /* RecipeCollectionViewController.m in Sources */,
 				D16CDE431B6D1A7F00D55B50 /* AppDelegate.m in Sources */,
+				D19F48EB1B6FC19800930E65 /* RecipeViewController.m in Sources */,
 				D16CDE401B6D1A7F00D55B50 /* main.m in Sources */,
 				A2C1A4D61B6F968E005ABC79 /* RecipeCollectionHeaderView.m in Sources */,
 				A2C1A4D91B6F98F2005ABC79 /* RecipeViewCell.m in Sources */,

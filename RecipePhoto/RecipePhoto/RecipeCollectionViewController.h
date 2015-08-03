@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Social/Social.h>
 @interface RecipeCollectionViewController : UICollectionViewController
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
+- (IBAction)shareButtonTouched:(id)sender;
+
 
 @end
