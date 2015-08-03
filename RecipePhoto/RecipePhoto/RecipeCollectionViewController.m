@@ -7,7 +7,7 @@
 //
 
 #import "RecipeCollectionViewController.h"
-
+#import "RecipeCollectionHeaderView.h"
 @interface RecipeCollectionViewController (){
     NSArray *recipePhotos;
 }
@@ -29,7 +29,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    recipePhotos = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", @"green_tea.jpg", @"ham_and_cheese_panini.jpg", @"ham_and_egg_sandwich.jpg", @"hamburger.jpg", @"instant_noodle_with_egg.jpg", @"japanese_noodle_with_pork.jpg", @"mushroom_risotto.jpg", @"noodle_with_bbq_pork.jpg", @"starbucks_coffee.jpg", @"thai_shrimp_cake.jpg", @"vegetable_curry.jpg", @"white_chocolate_donut.jpg", nil];
+    NSArray *mainDishImages = [NSArray arrayWithObjects:@"egg_benedict.jpg", @"full_breakfast.jpg", @"ham_and_cheese_panini.jpg", @"ham_and_egg_sandwich.jpg", @"hamburger.jpg", @"instant_noodle_with_egg.jpg", @"japanese_noodle_with_pork.jpg", @"mushroom_risotto.jpg", @"noodle_with_bbq_pork.jpg", @"thai_shrimp_cake.jpg", @"vegetable_curry.jpg", nil];
+    NSArray *drinkDessertImages = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"green_tea.jpg", @"starbucks_coffee.jpg", @"white_chocolate_donut.jpg", nil];
+    recipePhotos = [NSArray arrayWithObjects:mainDishImages, drinkDessertImages, nil];
+    UICollectionViewFlowLayout *collectionViewLayout=(UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
+    collectionViewLayout.sectionInset=UIEdgeInsetsMake(20, 0, 20, 0);//(top,left,bottom,right)
     
 }
 
@@ -50,23 +54,44 @@
 
 #pragma mark <UICollectionViewDataSource>
 
-//- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-//#warning Incomplete method implementation -- Return the number of sections
-//    return 0;
-//}
-
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return [recipePhotos count];
 }
 
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return [[recipePhotos objectAtIndex:section]count];
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionReusableView *reusableview = nil;
+    
+    if (kind == UICollectionElementKindSectionHeader) {
+        RecipeCollectionHeaderView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView" forIndexPath:indexPath];
+        NSString *title = [[NSString alloc]initWithFormat:@"Recipe Group #%i", indexPath.section + 1];
+        headerView.title.text = title;
+        UIImage *headerImage = [UIImage imageNamed:@"header_banner.png"];
+        headerView.backgroundImage.image = headerImage;
+        
+        reusableview = headerView;
+    }
+    
+    if (kind == UICollectionElementKindSectionFooter) {
+        UICollectionReusableView *footerview = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"FooterView" forIndexPath:indexPath];
+        
+        reusableview = footerview;
+    }
+    
+    return reusableview;
+}
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *identifier=@"Cell";
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     
     UIImageView *recipeImageView=(UIImageView*)[cell viewWithTag:100];
-    recipeImageView.image=[UIImage imageNamed:[recipePhotos objectAtIndex:indexPath.row]];
+    recipeImageView.image=[UIImage imageNamed:[recipePhotos[indexPath.section] objectAtIndex:indexPath.row]];
     // Configure the cell
     cell.backgroundView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"photo-frame.png"]];
     return cell;
@@ -102,5 +127,6 @@
 	
 }
 */
+
 
 @end
