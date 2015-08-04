@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Users>  
+    <User id="101">
+        <name>hangge1</name>
+        <tel>
+        	<mobile>1234567</mobile>
+        	<home>025-8100000</home>
+        </tel>  
+    </User>  
+    <User id="102">
+        <name>hangge2</name>
+        <tel>
+        	<mobile>8989889</mobile>
+        	<home>025-8122222</home>
+        </tel> 
+    </User>  
+</Users>
