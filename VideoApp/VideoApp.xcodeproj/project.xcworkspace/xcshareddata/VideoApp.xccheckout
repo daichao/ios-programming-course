@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3F64C945-BB1F-4BA5-8AC3-8F8075E0819A</string>
+	<string>AE64DF5A-5C15-4446-9010-9213EFD86D13</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CameraApp</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
 		<string>https://github.com/daichao/ios-programming-course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CameraApp/CameraApp.xcodeproj</string>
+	<string>VideoApp/VideoApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>

@@ -420,6 +420,7 @@
 				A29353B71B74B10C004ABDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29353B81B74B10C004ABDAA /* Build configuration list for PBXNativeTarget "CameraAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				A29353BA1B74B10C004ABDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
