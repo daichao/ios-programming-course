@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AE64DF5A-5C15-4446-9010-9213EFD86D13</string>
+	<string>B09F72B1-826A-44FA-9366-421227635029</string>
 	<key>IDESourceControlProjectName</key>
-	<string>VideoApp</string>
+	<string>SidebarDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
 		<string>https://github.com/daichao/ios-programming-course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>VideoApp/VideoApp.xcodeproj</string>
+	<string>SidebarDemoTemplate/SidebarDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
