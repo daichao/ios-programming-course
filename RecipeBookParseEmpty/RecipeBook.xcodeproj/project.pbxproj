@@ -24,6 +24,8 @@
 		A23AA4721B79D56400125438 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AA4711B79D56400125438 /* ParseFacebookUtils.framework */; };
 		A23AA4741B79D56A00125438 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AA4731B79D56A00125438 /* ParseFacebookUtilsV4.framework */; };
 		A23AA4761B79D68B00125438 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AA4751B79D68B00125438 /* libsqlite3.0.dylib */; };
+		A24F3E941B79F28100F0725F /* add-photo-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = A24F3E931B79F28100F0725F /* add-photo-placeholder.png */; };
+		A24F3E971B79F33200F0725F /* NewRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F3E961B79F33200F0725F /* NewRecipeViewController.m */; };
 		F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* RecipeDetailViewController.m */; };
 		F447242715D78F07004A8C72 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F447242615D78F07004A8C72 /* Recipe.m */; };
 		F447242B15D7B22E004A8C72 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F447242915D7B22D004A8C72 /* photo-frame.png */; };
@@ -71,6 +73,9 @@
 		A23AA4711B79D56400125438 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		A23AA4731B79D56A00125438 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		A23AA4751B79D68B00125438 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A24F3E931B79F28100F0725F /* add-photo-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-photo-placeholder.png"; sourceTree = "<group>"; };
+		A24F3E951B79F33200F0725F /* NewRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeViewController.h; sourceTree = "<group>"; };
+		A24F3E961B79F33200F0725F /* NewRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeViewController.m; sourceTree = "<group>"; };
 		F419149C158D558600E54887 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		F419149D158D558600E54887 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 		F447242515D78F07004A8C72 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
@@ -142,6 +147,7 @@
 		F47929FD17A3FEA7005ABA86 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A24F3E931B79F28100F0725F /* add-photo-placeholder.png */,
 				F46F6AFC17A8DE1300EA6224 /* placeholder.jpg */,
 				F447242915D7B22D004A8C72 /* photo-frame.png */,
 				F447242A15D7B22D004A8C72 /* photo-frame@2x.png */,
@@ -214,6 +220,8 @@
 				F4AA6C3A1589A2DF0093D97E /* RecipeBookAppDelegate.h */,
 				F4AA6C3B1589A2DF0093D97E /* RecipeBookAppDelegate.m */,
 				F4AA6C3D1589A2DF0093D97E /* MainStoryboard.storyboard */,
+				A24F3E951B79F33200F0725F /* NewRecipeViewController.h */,
+				A24F3E961B79F33200F0725F /* NewRecipeViewController.m */,
 				F4AA6C401589A2DF0093D97E /* RecipeBookViewController.h */,
 				F4AA6C411589A2DF0093D97E /* RecipeBookViewController.m */,
 				F419149C158D558600E54887 /* RecipeDetailViewController.h */,
@@ -306,6 +314,7 @@
 				F447244715D81B5F004A8C72 /* mushroom_risotto.jpg in Resources */,
 				F447244815D81B5F004A8C72 /* starbucks_coffee.jpg in Resources */,
 				F447244915D81B5F004A8C72 /* thai_shrimp_cake.jpg in Resources */,
+				A24F3E941B79F28100F0725F /* add-photo-placeholder.png in Resources */,
 				F447244A15D81B5F004A8C72 /* vegetable_curry.jpg in Resources */,
 				F447244C15D94422004A8C72 /* white_chocolate_donut.jpg in Resources */,
 				F46F6AFD17A8DE1300EA6224 /* placeholder.jpg in Resources */,
@@ -320,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AA6C381589A2DF0093D97E /* main.m in Sources */,
+				A24F3E971B79F33200F0725F /* NewRecipeViewController.m in Sources */,
 				F4AA6C3C1589A2DF0093D97E /* RecipeBookAppDelegate.m in Sources */,
 				F4AA6C421589A2DF0093D97E /* RecipeBookViewController.m in Sources */,
 				F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */,
