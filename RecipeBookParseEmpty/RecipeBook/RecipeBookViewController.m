@@ -40,13 +40,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(refreshTable:) name:@"refreshTable" object:nil];
+    
 }
 
+-(void)refreshTable:(NSNotification*)notification{
+    [self loadObjects];
+}
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:@"refreshTable" object:nil];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -84,6 +90,13 @@
     prepTimeLabel.text=[object objectForKey:@"prepTime"];
     
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    PFObject *object=[self.objects objectAtIndex:indexPath.row];
+    [object deleteInBackgroundWithBlock:^(BOOL succeeded,NSError *error){
+        [self refreshTable:nil];
+    }];
 }
 
 -(void)objectsDidLoad:(nullable NSError *)error{

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface NewRecipeViewController : UITableViewController<UITextFieldDelegate>
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
+@interface NewRecipeViewController : UITableViewController<UITextFieldDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
 @end
