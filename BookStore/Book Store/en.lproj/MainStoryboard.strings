@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Stephane Mallat"; ObjectID = "0N3-up-Ts6"; */
+"0N3-up-Ts6.text" = "Stephane Mallat";
+
+/* Class = "IBUINavigationItem"; title = "Book Store"; ObjectID = "9EY-vY-nyh"; */
+"9EY-vY-nyh.title" = "Book Store";
+
+/* Class = "IBUILabel"; text = "This book is intended to serve as an invaluable reference for anyone concerned with the application of wavelets to signal processing. It has evolved from material used to teach \"wavelet signal processing\" courses in electrical engineering departments at Massachusetts Institute of Technology and Tel Aviv University, as well as applied mathematics departments at the Courant Institute of New York University and École Polytechnique in Paris. "; ObjectID = "gkh-KY-W1e"; */
+"gkh-KY-W1e.text" = "This book is intended to serve as an invaluable reference for anyone concerned with the application of wavelets to signal processing. It has evolved from material used to teach \"wavelet signal processing\" courses in electrical engineering departments at Massachusetts Institute of Technology and Tel Aviv University, as well as applied mathematics departments at the Courant Institute of New York University and École Polytechnique in Paris. ";
+
+/* Class = "IBUIButton"; normalTitle = "Buy"; ObjectID = "jul-3l-6x7"; */
+"jul-3l-6x7.normalTitle" = "Buy";
+
+/* Class = "IBUILabel"; text = "A Wavelet Tour of Signal Processing"; ObjectID = "xi7-zh-v4N"; */
+"xi7-zh-v4N.text" = "A Wavelet Tour of Signal Processing";

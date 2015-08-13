@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Book Store
+
+  Created by Simon on 15/9/13.
+  Copyright (c) 2013 TAMIM Ziad. All rights reserved.
+*/
+
+"BOOK_PURCHASE" = "merci pour l'achat!";
