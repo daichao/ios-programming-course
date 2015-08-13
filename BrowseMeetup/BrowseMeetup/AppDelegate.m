@@ -28,7 +28,7 @@
 #pragma mark -CLLocationManagerDelegate
 
 -(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
-    if (status==kCLAuthorizationStatusAuthorized) {
+    if (status==kCLAuthorizationStatusAuthorizedAlways) {
         [[NSNotificationCenter defaultCenter]postNotificationName:@"kCLAuthorizationStatusAuthorized" object:self];
     }
 }

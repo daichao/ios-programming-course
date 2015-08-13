@@ -116,16 +116,16 @@
 				A24F3EAE1B7B6FA700F0725F /* MasterViewController.h */,
 				A24F3EAF1B7B6FA700F0725F /* MasterViewController.m */,
 				A24F3EB41B7B6FA800F0725F /* Main.storyboard */,
-				A24F3EDC1B7B79B600F0725F /* Group.h */,
 				A24F3EDF1B7B7A6D00F0725F /* MeetupCommunicatorDelegate.h */,
+				A24F3EE61B7B80E400F0725F /* MeetupManagerDelegate.h */,
 				A24F3EE01B7B7B2100F0725F /* MeetupCommunicator.h */,
+				A24F3EE11B7B7B2100F0725F /* MeetupCommunicator.m */,
 				A24F3EE71B7B815600F0725F /* MeetupManager.h */,
 				A24F3EE81B7B815600F0725F /* MeetupManager.m */,
-				A24F3EE11B7B7B2100F0725F /* MeetupCommunicator.m */,
+				A24F3EDC1B7B79B600F0725F /* Group.h */,
+				A24F3EDD1B7B79B600F0725F /* Group.m */,
 				A24F3EE31B7B7DE900F0725F /* GroupBuilder.h */,
 				A24F3EE41B7B7DE900F0725F /* GroupBuilder.m */,
-				A24F3EE61B7B80E400F0725F /* MeetupManagerDelegate.h */,
-				A24F3EDD1B7B79B600F0725F /* Group.m */,
 				A24F3ED91B7B72B000F0725F /* DetailCell.h */,
 				A24F3EDA1B7B72B000F0725F /* DetailCell.m */,
 				A24F3EB71B7B6FA800F0725F /* Images.xcassets */,
@@ -475,6 +475,7 @@
 				A24F3ECC1B7B6FA800F0725F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A24F3ECD1B7B6FA800F0725F /* Build configuration list for PBXNativeTarget "BrowseMeetupTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				A24F3ECF1B7B6FA800F0725F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

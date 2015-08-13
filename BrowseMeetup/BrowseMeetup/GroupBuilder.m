@@ -9,6 +9,7 @@
 #import "GroupBuilder.h"
 #import "Group.h"
 @implementation GroupBuilder
+
 +(NSArray*)groupsFromJSON:(NSData *)objectNotation error:(NSError**)error{
     NSError *localError=nil;
     NSDictionary *parsedObject=[NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];

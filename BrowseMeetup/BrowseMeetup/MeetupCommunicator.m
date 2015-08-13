@@ -13,6 +13,7 @@
 #define PAGE_COUNT 20
 
 @implementation MeetupCommunicator
+
 -(void)searchGroupsAtCoordinate:(CLLocationCoordinate2D)coordinate{
     NSString *urlAsString=[NSString stringWithFormat:@"https://api.meetup.com/2/groups?lat=%f&lon=%f&page=%d&key=%@",coordinate.latitude,coordinate.longitude,PAGE_COUNT,API_KEY];
     NSURL *url=[[NSURL alloc]initWithString:urlAsString];
@@ -23,6 +24,7 @@
             [self.delegate fetchingGroupsFailedWithError:error];
         }else{
             [self.delegate receiveGroupsJSON:data];
+             
         }
     }];
 }
