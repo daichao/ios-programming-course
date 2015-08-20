@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2EF4E7F1B859E5C009139AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4E7E1B859E5C009139AD /* main.m */; };
+		A2EF4E821B859E5C009139AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4E811B859E5C009139AD /* AppDelegate.m */; };
+		A2EF4E851B859E5C009139AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4E841B859E5C009139AD /* ViewController.m */; };
+		A2EF4E881B859E5C009139AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4E861B859E5C009139AD /* Main.storyboard */; };
+		A2EF4E8A1B859E5C009139AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4E891B859E5C009139AD /* Images.xcassets */; };
+		A2EF4E8D1B859E5C009139AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4E8B1B859E5C009139AD /* LaunchScreen.xib */; };
+		A2EF4E991B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4E981B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.m */; };
+		A2EF4EA51B85B0FB009139AD /* DCSimpleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4EA41B85B0FB009139AD /* DCSimpleAudioPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2EF4E931B859E5C009139AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EF4E711B859E5C009139AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EF4E781B859E5C009139AD;
+			remoteInfo = MCSimpleAudioPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2EF4E791B859E5C009139AD /* MCSimpleAudioPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSimpleAudioPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF4E7D1B859E5C009139AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EF4E7E1B859E5C009139AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2EF4E801B859E5C009139AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2EF4E811B859E5C009139AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2EF4E831B859E5C009139AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2EF4E841B859E5C009139AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2EF4E871B859E5C009139AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2EF4E891B859E5C009139AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2EF4E8C1B859E5C009139AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2EF4E921B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCSimpleAudioPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF4E971B859E5C009139AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EF4E981B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCSimpleAudioPlayerDemoTests.m; sourceTree = "<group>"; };
+		A2EF4EA31B85B0FB009139AD /* DCSimpleAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSimpleAudioPlayer.h; sourceTree = "<group>"; };
+		A2EF4EA41B85B0FB009139AD /* DCSimpleAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSimpleAudioPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EF4E761B859E5C009139AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF4E8F1B859E5C009139AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2EF4E701B859E5C009139AD = {
+			isa = PBXGroup;
+			children = (
+				A2EF4E7B1B859E5C009139AD /* DCSimpleAudioPlayerDemo */,
+				A2EF4E951B859E5C009139AD /* DCSimpleAudioPlayerDemoTests */,
+				A2EF4E7A1B859E5C009139AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EF4E7A1B859E5C009139AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4E791B859E5C009139AD /* MCSimpleAudioPlayerDemo.app */,
+				A2EF4E921B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EF4E7B1B859E5C009139AD /* DCSimpleAudioPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4EA21B85B09A009139AD /* DCSimpleAudioPlayer */,
+				A2EF4E801B859E5C009139AD /* AppDelegate.h */,
+				A2EF4E811B859E5C009139AD /* AppDelegate.m */,
+				A2EF4E831B859E5C009139AD /* ViewController.h */,
+				A2EF4E841B859E5C009139AD /* ViewController.m */,
+				A2EF4E861B859E5C009139AD /* Main.storyboard */,
+				A2EF4E891B859E5C009139AD /* Images.xcassets */,
+				A2EF4E8B1B859E5C009139AD /* LaunchScreen.xib */,
+				A2EF4E7C1B859E5C009139AD /* Supporting Files */,
+			);
+			name = DCSimpleAudioPlayerDemo;
+			path = MCSimpleAudioPlayerDemo;
+			sourceTree = "<group>";
+		};
+		A2EF4E7C1B859E5C009139AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4E7D1B859E5C009139AD /* Info.plist */,
+				A2EF4E7E1B859E5C009139AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2EF4E951B859E5C009139AD /* DCSimpleAudioPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4E981B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.m */,
+				A2EF4E961B859E5C009139AD /* Supporting Files */,
+			);
+			name = DCSimpleAudioPlayerDemoTests;
+			path = MCSimpleAudioPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		A2EF4E961B859E5C009139AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4E971B859E5C009139AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2EF4EA21B85B09A009139AD /* DCSimpleAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4EA31B85B0FB009139AD /* DCSimpleAudioPlayer.h */,
+				A2EF4EA41B85B0FB009139AD /* DCSimpleAudioPlayer.m */,
+			);
+			name = DCSimpleAudioPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EF4E781B859E5C009139AD /* MCSimpleAudioPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EF4E9C1B859E5C009139AD /* Build configuration list for PBXNativeTarget "MCSimpleAudioPlayerDemo" */;
+			buildPhases = (
+				A2EF4E751B859E5C009139AD /* Sources */,
+				A2EF4E761B859E5C009139AD /* Frameworks */,
+				A2EF4E771B859E5C009139AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSimpleAudioPlayerDemo;
+			productName = MCSimpleAudioPlayerDemo;
+			productReference = A2EF4E791B859E5C009139AD /* MCSimpleAudioPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2EF4E911B859E5C009139AD /* MCSimpleAudioPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EF4E9F1B859E5C009139AD /* Build configuration list for PBXNativeTarget "MCSimpleAudioPlayerDemoTests" */;
+			buildPhases = (
+				A2EF4E8E1B859E5C009139AD /* Sources */,
+				A2EF4E8F1B859E5C009139AD /* Frameworks */,
+				A2EF4E901B859E5C009139AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EF4E941B859E5C009139AD /* PBXTargetDependency */,
+			);
+			name = MCSimpleAudioPlayerDemoTests;
+			productName = MCSimpleAudioPlayerDemoTests;
+			productReference = A2EF4E921B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EF4E711B859E5C009139AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bokeadmin;
+				TargetAttributes = {
+					A2EF4E781B859E5C009139AD = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A2EF4E911B859E5C009139AD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A2EF4E781B859E5C009139AD;
+					};
+				};
+			};
+			buildConfigurationList = A2EF4E741B859E5C009139AD /* Build configuration list for PBXProject "MCSimpleAudioPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EF4E701B859E5C009139AD;
+			productRefGroup = A2EF4E7A1B859E5C009139AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EF4E781B859E5C009139AD /* MCSimpleAudioPlayerDemo */,
+				A2EF4E911B859E5C009139AD /* MCSimpleAudioPlayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EF4E771B859E5C009139AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF4E881B859E5C009139AD /* Main.storyboard in Resources */,
+				A2EF4E8D1B859E5C009139AD /* LaunchScreen.xib in Resources */,
+				A2EF4E8A1B859E5C009139AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF4E901B859E5C009139AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EF4E751B859E5C009139AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF4EA51B85B0FB009139AD /* DCSimpleAudioPlayer.m in Sources */,
+				A2EF4E851B859E5C009139AD /* ViewController.m in Sources */,
+				A2EF4E821B859E5C009139AD /* AppDelegate.m in Sources */,
+				A2EF4E7F1B859E5C009139AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF4E8E1B859E5C009139AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF4E991B859E5C009139AD /* MCSimpleAudioPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EF4E941B859E5C009139AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EF4E781B859E5C009139AD /* MCSimpleAudioPlayerDemo */;
+			targetProxy = A2EF4E931B859E5C009139AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2EF4E861B859E5C009139AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EF4E871B859E5C009139AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EF4E8B1B859E5C009139AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EF4E8C1B859E5C009139AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EF4E9A1B859E5C009139AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2EF4E9B1B859E5C009139AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EF4E9D1B859E5C009139AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCSimpleAudioPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2EF4E9E1B859E5C009139AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCSimpleAudioPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2EF4EA01B859E5C009139AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MCSimpleAudioPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCSimpleAudioPlayerDemo.app/MCSimpleAudioPlayerDemo";
+			};
+			name = Debug;
+		};
+		A2EF4EA11B859E5C009139AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MCSimpleAudioPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCSimpleAudioPlayerDemo.app/MCSimpleAudioPlayerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EF4E741B859E5C009139AD /* Build configuration list for PBXProject "MCSimpleAudioPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF4E9A1B859E5C009139AD /* Debug */,
+				A2EF4E9B1B859E5C009139AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EF4E9C1B859E5C009139AD /* Build configuration list for PBXNativeTarget "MCSimpleAudioPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF4E9D1B859E5C009139AD /* Debug */,
+				A2EF4E9E1B859E5C009139AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EF4E9F1B859E5C009139AD /* Build configuration list for PBXNativeTarget "MCSimpleAudioPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF4EA01B859E5C009139AD /* Debug */,
+				A2EF4EA11B859E5C009139AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EF4E711B859E5C009139AD /* Project object */;
+}

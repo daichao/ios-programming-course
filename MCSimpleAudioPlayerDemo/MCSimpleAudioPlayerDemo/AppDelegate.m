@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  PageViewDemo
+//  MCSimpleAudioPlayerDemo
 //
-//  Created by daichao on 15/8/19.
-//  Copyright (c) 2015年 daichao. All rights reserved.
+//  Created by bokeadmin on 15/8/20.
+//  Copyright (c) 2015年 bokeadmin. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,11 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UIPageControl *pageControl=[UIPageControl appearance];
-    pageControl.pageIndicatorTintColor=[UIColor lightGrayColor];
-    pageControl.currentPageIndicatorTintColor=[UIColor blackColor];
-    pageControl.backgroundColor=[UIColor whiteColor];
-    
     return YES;
 }
 

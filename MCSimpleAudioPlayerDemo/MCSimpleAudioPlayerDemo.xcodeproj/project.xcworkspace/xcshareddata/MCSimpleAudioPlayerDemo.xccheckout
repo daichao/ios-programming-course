@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6503C0E5-3839-40B4-A71C-C7BAE5DAF1E2</string>
+	<string>40C9B382-F9FA-422B-869F-AA735A5961CD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PageViewDemo</string>
+	<string>MCSimpleAudioPlayerDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>
 		<string>https://github.com/daichao/ios-programming-course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PageViewDemo/PageViewDemo.xcodeproj</string>
+	<string>MCSimpleAudioPlayerDemo/MCSimpleAudioPlayerDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0914431BD7014074E49B8C17BF10A817BE77787D</key>

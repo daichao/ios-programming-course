@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2EF4EA81B85BA22009139AD /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF4EA71B85BA22009139AD /* PageContentViewController.m */; };
+		A2EF4EAE1B85C08C009139AD /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4EAA1B85C08C009139AD /* page1.png */; };
+		A2EF4EAF1B85C08C009139AD /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4EAB1B85C08C009139AD /* page2.png */; };
+		A2EF4EB01B85C08C009139AD /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4EAC1B85C08C009139AD /* page3.png */; };
+		A2EF4EB11B85C08C009139AD /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EF4EAD1B85C08C009139AD /* page4.png */; };
 		D12CF6B81B84C77500ACFBD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CF6B71B84C77500ACFBD2 /* main.m */; };
 		D12CF6BB1B84C77500ACFBD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CF6BA1B84C77500ACFBD2 /* AppDelegate.m */; };
 		D12CF6BE1B84C77500ACFBD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CF6BD1B84C77500ACFBD2 /* ViewController.m */; };
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2EF4EA61B85BA22009139AD /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		A2EF4EA71B85BA22009139AD /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		A2EF4EAA1B85C08C009139AD /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		A2EF4EAB1B85C08C009139AD /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		A2EF4EAC1B85C08C009139AD /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		A2EF4EAD1B85C08C009139AD /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
 		D12CF6B21B84C77500ACFBD2 /* PageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12CF6B61B84C77500ACFBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12CF6B71B84C77500ACFBD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2EF4EA91B85C07B009139AD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF4EAA1B85C08C009139AD /* page1.png */,
+				A2EF4EAB1B85C08C009139AD /* page2.png */,
+				A2EF4EAC1B85C08C009139AD /* page3.png */,
+				A2EF4EAD1B85C08C009139AD /* page4.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		D12CF6A91B84C77500ACFBD2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +103,14 @@
 		D12CF6B41B84C77500ACFBD2 /* PageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A2EF4EA91B85C07B009139AD /* images */,
 				D12CF6B91B84C77500ACFBD2 /* AppDelegate.h */,
 				D12CF6BA1B84C77500ACFBD2 /* AppDelegate.m */,
 				D12CF6BC1B84C77500ACFBD2 /* ViewController.h */,
 				D12CF6BD1B84C77500ACFBD2 /* ViewController.m */,
 				D12CF6BF1B84C77500ACFBD2 /* Main.storyboard */,
+				A2EF4EA61B85BA22009139AD /* PageContentViewController.h */,
+				A2EF4EA71B85BA22009139AD /* PageContentViewController.m */,
 				D12CF6C21B84C77500ACFBD2 /* Images.xcassets */,
 				D12CF6C41B84C77500ACFBD2 /* LaunchScreen.xib */,
 				D12CF6B51B84C77500ACFBD2 /* Supporting Files */,
@@ -201,7 +226,11 @@
 			files = (
 				D12CF6C11B84C77500ACFBD2 /* Main.storyboard in Resources */,
 				D12CF6C61B84C77500ACFBD2 /* LaunchScreen.xib in Resources */,
+				A2EF4EB01B85C08C009139AD /* page3.png in Resources */,
+				A2EF4EB11B85C08C009139AD /* page4.png in Resources */,
+				A2EF4EAE1B85C08C009139AD /* page1.png in Resources */,
 				D12CF6C31B84C77500ACFBD2 /* Images.xcassets in Resources */,
+				A2EF4EAF1B85C08C009139AD /* page2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D12CF6BE1B84C77500ACFBD2 /* ViewController.m in Sources */,
+				A2EF4EA81B85BA22009139AD /* PageContentViewController.m in Sources */,
 				D12CF6BB1B84C77500ACFBD2 /* AppDelegate.m in Sources */,
 				D12CF6B81B84C77500ACFBD2 /* main.m in Sources */,
 			);
@@ -418,6 +448,7 @@
 				D12CF6D71B84C77500ACFBD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D12CF6D81B84C77500ACFBD2 /* Build configuration list for PBXNativeTarget "PageViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +457,7 @@
 				D12CF6DA1B84C77500ACFBD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
