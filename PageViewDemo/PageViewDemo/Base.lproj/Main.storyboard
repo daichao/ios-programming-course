@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0G-2T-UhO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0G-2T-UhO">
                                 <rect key="frame" x="123" y="530" width="75" height="30"/>
                                 <state key="normal" title="Start again">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -27,6 +27,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v0G-2T-UhO" secondAttribute="bottom" constant="8" id="kZe-cs-U6l"/>
+                            <constraint firstAttribute="trailing" secondItem="v0G-2T-UhO" secondAttribute="trailing" constant="122" id="pgj-zV-o4y"/>
+                            <constraint firstItem="v0G-2T-UhO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="123" id="tS3-nm-mXK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,17 +58,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rf6-Rv-A6a">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rf6-Rv-A6a">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-7G-4Ak">
-                                <rect key="frame" x="29" y="32" width="263" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-7G-4Ak">
+                                <rect key="frame" x="29" y="34" width="263" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rf6-Rv-A6a" firstAttribute="top" secondItem="DI7-ar-nwb" secondAttribute="bottom" id="6hP-st-OpX"/>
+                            <constraint firstItem="x85-xU-izr" firstAttribute="top" secondItem="Rf6-Rv-A6a" secondAttribute="bottom" id="KUc-P1-AwT"/>
+                            <constraint firstAttribute="trailing" secondItem="bTG-7G-4Ak" secondAttribute="trailing" constant="28" id="SqJ-tL-e62"/>
+                            <constraint firstItem="x85-xU-izr" firstAttribute="top" secondItem="bTG-7G-4Ak" secondAttribute="bottom" constant="508" id="TY0-kb-2c8"/>
+                            <constraint firstItem="bTG-7G-4Ak" firstAttribute="leading" secondItem="T0T-lR-olW" secondAttribute="leading" constant="29" id="bHs-BN-9xQ"/>
+                            <constraint firstItem="Rf6-Rv-A6a" firstAttribute="leading" secondItem="T0T-lR-olW" secondAttribute="leading" id="cwK-XV-9MO"/>
+                            <constraint firstAttribute="trailing" secondItem="Rf6-Rv-A6a" secondAttribute="trailing" id="d5A-Yo-HoS"/>
+                            <constraint firstItem="bTG-7G-4Ak" firstAttribute="top" secondItem="DI7-ar-nwb" secondAttribute="bottom" constant="14" id="oSQ-1X-guZ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="backgroundImageView" destination="Rf6-Rv-A6a" id="grJ-qH-qEj"/>
@@ -72,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeG-Ft-EAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="673"/>
+            <point key="canvasLocation" x="572" y="686"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
